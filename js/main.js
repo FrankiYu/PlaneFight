@@ -293,7 +293,7 @@ function start(){
 /*
  如果敌机超出边界,删除敌机
  */
-        if(enemys[i].imagenode.offsetTop>winWidth){
+        if(enemys[i].imagenode.offsetTop>winHeight){
             mainDiv.removeChild(enemys[i].imagenode);
             enemys.splice(i,1);
             enemyslen--;
